@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home - SavannahStore</title>
+    {% load static %}
+    <style>
+        h1{
+            text-align: center;
+            color: brown;
+        }
+    </style>
+</head>
+<body>
+<h1>SavvanahStore Web Application</h1>
+<a href="{% url 'services' %}">View Services</a>
+<a href="{% url 'gallery' %}">See Products</a>
+
+
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores delectus distinctio ducimus enim est ex ipsa laborum molestiae necessitatibus obcaecati omnis pariatur quae, quibusdam quidem quisquam rerum velit, voluptatibus voluptatum.</span><span>Accusantium aut beatae blanditiis consequuntur eligendi esse incidunt, inventore ipsum nesciunt, non placeat qui rerum sapiente sit, tempora vel veniam. Consequuntur cumque explicabo incidunt modi veniam. Consequatur libero omnis ut.</span></p>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusantium alias corporis enim laborum, laudantium reiciendis? A aliquam beatae delectus doloribus expedita numquam totam unde. Architecto asperiores consequatur nam perferendis voluptatum.</span><span>Ab consectetur consequatur debitis dicta dolorem dolorum eligendi ex fugit harum illo minus modi quam recusandae reiciendis, repudiandae sunt tempore? Accusantium asperiores deleniti dicta eius iste maiores necessitatibus, qui quidem?</span></p>
+<img src="{% static 'assets/menu/cake.jpg' %}" alt="">
+<img src="{% static 'assets/menu/bagel.jfif' %}" alt="">
+<img src="{% static 'assets/menu/cheesecake.jfif' %}" alt="">
+<img src="{% static 'assets/menu/espresso.jfif' %}" alt="">
+</body>
+</html>
